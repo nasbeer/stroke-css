@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+body {
+  font: 40px/1 'Raleway', sans-serif;
+  margin: 1rem;
+  background-color:#000;
+}
+
+h1 {
+  margin: 0;
+/*   animation: colorchange 2s infinite; */
+}
+
+h1.nasbeer{
+  text-shadow: 11px 11px 0px #000,
+              12px 12px 1px #fff,
+    11px 11px 1px #fff;
+/*                  -30px 30px 0px #000; */
+}
+
+
+.nas:after{
+  content:"Nasbeer";
+  margin-top:100px !important;
+}
+.nas:before{
+  content:"Nasbeer";
+  
+}
+
+@supports (-webkit-text-stroke: 1px white) {
+  h1 {
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: white;
+  }
+}
+
+/* @keyframes colorchange {
+  0% {
+    -webkit-text-stroke: 10px red;
+  }
+  100% {
+    -webkit-text-stroke: 20px green;
+  }
+} */
